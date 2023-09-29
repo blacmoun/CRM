@@ -15,7 +15,7 @@ namespace CRM
             _contacts.Add(contactToAdd);
         }
 
-        public void AddContacts(List<Contact> contacts)
+        public void AddContacts(List<Contact> newContacts)
         {
             throw new NotImplementedException();
         }

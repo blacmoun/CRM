@@ -84,6 +84,7 @@ namespace CRM
             set
             {
                 _dateOfBirth = value;
+                this.UpdateLastUpdate();
             }
         }
 
@@ -98,7 +99,8 @@ namespace CRM
             }
             set
             {
-                _name = value;
+                _nationality = value;
+                this.UpdateLastUpdate();
             }
         }
 
@@ -114,6 +116,7 @@ namespace CRM
             set
             {
                 _email = value;
+                this.UpdateLastUpdate();
             }
         }
 
