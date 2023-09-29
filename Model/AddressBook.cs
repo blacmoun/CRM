@@ -39,6 +39,7 @@ namespace CRM
         }
         #endregion public methods
         public class ContactAlreadyExist : Exception { };
-       
+        public class RemoveFailedException : Exception { };
+
     }
 }
