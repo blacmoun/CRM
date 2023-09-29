@@ -113,7 +113,7 @@ namespace CRM
             }
             set
             {
-                Email = value;
+                _email = value;
             }
         }
 

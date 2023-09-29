@@ -15,6 +15,21 @@ namespace CRM
             _contacts.Add(contactToAdd);
         }
 
+        public void AddContacts(List<Contact> contacts)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool? DoesExist(Contact astier)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(Contact gauthier)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Contact> Contacts
         {
             get
@@ -23,5 +38,7 @@ namespace CRM
             }
         }
         #endregion public methods
+        public class ContactAlreadyExist : Exception { };
+       
     }
 }
